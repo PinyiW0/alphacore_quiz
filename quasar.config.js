@@ -46,8 +46,10 @@ export default defineConfig((/* ctx */) => {
       // vueOptionsAPI: false,
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
-
-      // publicPath: '/',
+      vite: {
+        base: '/alphacore_quiz/'
+      },
+      publicPath: '/alphacore_quiz/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
